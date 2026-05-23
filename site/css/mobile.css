@@ -1,0 +1,699 @@
+/* ==================== MOBILE VERSION (max-width: 600px) ==================== */
+
+:root {
+  --mod: 66px;
+  --micro: 18px;
+  --line: 18px;
+  --radius: 27px;
+}
+
+/* ==================== КОНТЕЙНЕРЫ ==================== */
+.body-wrapper {
+  width: 318px;
+  background: var(--bg-body);
+  position: relative;
+  padding: 0 33px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.page-inner {
+  background: var(--bg-inner);
+  border-radius: var(--radius);
+  position: relative;
+  width: 252px;
+  overflow: hidden;
+}
+
+/* ==================== СЕКЦИЯ 1: ГЛАВНАЯ ==================== */
+.section-hero {
+  height: 612px;
+}
+
+.hero-line-top {
+  position: absolute;
+  top: 9px;
+  left: 9px;
+  right: 9px;
+  height: 1px;
+  background: var(--gray-line);
+}
+
+.hero-line-bottom {
+  position: absolute;
+  top: 27px;
+  left: 9px;
+  right: 9px;
+  height: 1px;
+  background: var(--gray-line);
+}
+
+.nav {
+  position: absolute;
+  top: 10px;
+  left: 9px;
+  right: 9px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 16px;
+}
+
+.nav-link {
+  font-family: 'AA Stetica', sans-serif;
+  font-size: 6px;
+  color: var(--text-primary);
+  text-decoration: none;
+  text-align: center;
+  line-height: 1.25;
+}
+
+.nav-link-two-lines {
+  line-height: 1.25;
+}
+
+.name {
+  position: absolute;
+  top: 54px;
+  left: 9px;
+  font-family: 'AA Stetica', sans-serif;
+  font-size: 12.6px;
+  color: var(--text-secondary);
+}
+
+.hero-title {
+  position: absolute;
+  top: 81px;
+  left: 9px;
+  font-family: 'Bonche', sans-serif;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 1.15;
+  color: var(--text-primary);
+}
+
+.heart-icon {
+  width: 12.6px;
+  height: auto;
+  vertical-align: middle;
+}
+
+.dashed-circle-big {
+  position: absolute;
+  left: 54px;
+  bottom: 153px;
+  width: 108px;
+  height: 108px;
+}
+
+.dashed-circle-small {
+  position: absolute;
+  left: 54px;
+  bottom: 99px;
+  width: 54px;
+  height: 54px;
+}
+
+.btn-circle {
+  position: absolute;
+  left: 9px;
+  bottom: 72px;
+  width: 72px;
+  height: 72px;
+  background: var(--pink);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: var(--text-white);
+  font-family: 'AA Stetica', sans-serif;
+  font-size: 14.4px;
+  text-align: center;
+  transition: transform 0.3s;
+  z-index: 2;
+}
+
+.btn-circle:hover {
+  transform: scale(1.05);
+}
+
+.hero-text {
+  position: absolute;
+  right: 9px;
+  font-family: 'AA Stetica', sans-serif;
+  font-size: 7.2px;
+  line-height: 1.33;
+  color: var(--text-primary);
+  text-align: right;
+}
+
+.hero-text-1 {
+  top: 540px;
+}
+
+.hero-text-2 {
+  top: 576px;
+}
+
+.hero-photo {
+  position: absolute;
+  left: 9px;
+  top: 162px;
+  width: 168px;
+  height: 243px;
+  border-radius: 27px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.hero-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ==================== СЕКЦИЯ 2: ОБО МНЕ ==================== */
+.section-about {
+  height: 900px;
+}
+
+.about-frame {
+  position: absolute;
+  top: 504px;
+  left: 9px;
+  width: 234px;
+  height: 72px;
+  border: 1px solid var(--green);
+  border-radius: 27px;
+}
+
+.about-title {
+  position: absolute;
+  top: 459px;
+  left: 9px;
+  font-size: 27px;
+  line-height: 1.15;
+}
+
+.about-text {
+  position: absolute;
+  left: 9px;
+  font-family: 'AA Stetica', sans-serif;
+  font-size: 7.2px;
+  line-height: 1.33;
+  color: var(--text-primary);
+}
+
+.about-text-1 {
+  top: 522px;
+}
+
+.about-text-2 {
+  top: 594px;
+}
+
+.about-photo {
+  position: absolute;
+  left: 99px;
+  top: 576px;
+  width: 153px;
+  height: 153px;
+  border-radius: 27px;
+  overflow: hidden;
+}
+
+.about-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about-subtitle {
+  position: absolute;
+  top: 684px;
+  left: 9px;
+  font-family: 'AA Stetica', sans-serif;
+  font-size: 12.6px;
+  color: var(--text-primary);
+}
+
+.about-line {
+  position: absolute;
+  left: 9px;
+  width: 234px;
+  height: 1px;
+  background: var(--gray-line);
+}
+
+.about-line-1 {
+  top: 711px;
+}
+
+.about-line-2 {
+  top: 783px;
+}
+
+.about-line-3 {
+  top: 855px;
+}
+
+.about-line-4 {
+  top: 891px;
+}
+
+.about-edu {
+  position: absolute;
+  left: 9px;
+  font-family: 'AA Stetica', sans-serif;
+  font-size: 7.2px;
+  line-height: 1.33;
+  color: var(--text-primary);
+}
+
+.about-edu-1 {
+  top: 720px;
+}
+
+.about-edu-2 {
+  top: 792px;
+}
+
+.about-edu-3 {
+  top: 864px;
+}
+
+.about-circle-medium {
+  position: absolute;
+  left: 49.5px;
+  top: 747px;
+  width: 99px;
+  height: 99px;
+}
+
+.about-circle-big {
+  position: absolute;
+  left: 66px;
+  top: 720px;
+  width: 108px;
+  height: 108px;
+}
+
+.about-circle-small {
+  position: absolute;
+  left: 112.5px;
+  top: 801px;
+  width: 63px;
+  height: 63px;
+}
+
+.about-circle-label {
+  position: absolute;
+  font-family: 'AA Stetica', sans-serif;
+  font-size: 7.2px;
+  color: var(--text-primary);
+  text-align: center;
+}
+
+.about-circle-label-1 {
+  left: 76.5px;
+  top: 792px;
+}
+
+.about-circle-label-2 {
+  left: 93px;
+  top: 769.5px;
+}
+
+.about-circle-label-3 {
+  left: 121.5px;
+  top: 823.5px;
+  text-align: center;
+  line-height: 1.33;
+}
+
+/* ==================== СЕКЦИЯ 3: ВАШИ ЗАПРОСЫ ==================== */
+.section-requests {
+  height: 720px;
+}
+
+.requests-title {
+  position: absolute;
+  top: 963px;
+  left: 9px;
+  font-size: 27px;
+  line-height: 1.15;
+}
+
+.requests-photo {
+  position: absolute;
+  top: 1026px;
+  left: 9px;
+  right: 9px;
+  height: 297px;
+  border-radius: 27px;
+  overflow: hidden;
+}
+
+.requests-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.requests-plane {
+  position: absolute;
+  top: 1008px;
+  left: 9px;
+  width: 297px;
+  height: 297px;
+  object-fit: contain;
+  z-index: 2;
+}
+
+.requests-list {
+  position: absolute;
+  left: 18px;
+  font-family: 'AA Stetica', sans-serif;
+  font-size: 7.2px;
+  line-height: 1.33;
+  color: var(--text-primary);
+}
+
+.requests-list-if {
+  top: 1332px;
+}
+
+.requests-list-help {
+  top: 1494px;
+}
+
+.requests-list-title {
+  font-family: 'AA Stetica', sans-serif;
+  font-size: 7.2px;
+  font-weight: 400;
+  color: var(--text-primary);
+  margin-bottom: 8px;
+}
+
+.requests-item {
+  font-family: 'AA Stetica', sans-serif;
+  font-size: 7.2px;
+  line-height: 1.6;
+  color: var(--text-primary);
+  margin-bottom: 4px;
+  padding-left: 12px;
+  position: relative;
+}
+
+.requests-dot {
+  position: absolute;
+  left: 0;
+  top: 4px;
+  width: 5px;
+  height: 5px;
+  background: var(--pink);
+  border-radius: 50%;
+}
+
+/* ==================== СЕКЦИЯ 4: КАК РАБОТАЮ ==================== */
+.section-approach {
+  height: 900px;
+}
+
+.approach-frame {
+  position: absolute;
+  top: 1548px;
+  left: 9px;
+  width: 234px;
+  height: 342px;
+  border: 1px solid var(--green);
+  border-radius: 27px;
+}
+
+.approach-title {
+  position: absolute;
+  top: 1413px;
+  left: 9px;
+  font-size: 27px;
+  line-height: 1.15;
+}
+
+.approach-text {
+  position: absolute;
+  left: 9px;
+  font-family: 'AA Stetica', sans-serif;
+  font-size: 7.2px;
+  line-height: 1.33;
+  color: var(--text-primary);
+}
+
+.approach-text-1 {
+  top: 1458px;
+}
+
+.approach-text-2 {
+  top: 1548px;
+}
+
+.approach-text-3 {
+  top: 1638px;
+}
+
+.approach-pills {
+  position: absolute;
+  top: 1728px;
+  left: 9px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.pill {
+  background: var(--pink);
+  color: var(--text-white);
+  font-family: 'AA Stetica', sans-serif;
+  font-size: 12.6px;
+  padding: 4px 12px;
+  border-radius: 18px;
+  text-align: center;
+}
+
+.approach-circle-small {
+  position: absolute;
+  left: 18px;
+  bottom: 72px;
+  width: 72px;
+  height: 72px;
+}
+
+.approach-circle-big {
+  position: absolute;
+  left: 42px;
+  bottom: 18px;
+  width: 108px;
+  height: 108px;
+}
+
+.approach-circle-medium {
+  position: absolute;
+  left: 112.5px;
+  bottom: 54px;
+  width: 54px;
+  height: 54px;
+}
+
+.approach-photo {
+  position: absolute;
+  left: 27px;
+  top: 1656px;
+  width: 162px;
+  height: 162px;
+  border-radius: 27px;
+  overflow: hidden;
+}
+
+.approach-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ==================== СЕКЦИЯ 5: УСЛУГИ ==================== */
+.section-services {
+  height: 360px;
+}
+
+.services-title {
+  position: absolute;
+  top: 1836px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 27px;
+  line-height: 1.15;
+  text-align: center;
+}
+
+.services-cards {
+  position: absolute;
+  top: 1908px;
+  left: 9px;
+  right: 9px;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.service-card {
+  background: var(--green);
+  border-radius: 18px;
+  padding: 9px;
+  text-align: center;
+  height: 72px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-label {
+  font-family: 'AA Stetica', sans-serif;
+  font-size: 12.6px;
+  color: var(--text-on-green);
+  margin-bottom: 4px;
+}
+
+.service-value {
+  font-family: 'AA Stetica', sans-serif;
+  font-size: 12.6px;
+  font-weight: 700;
+  color: var(--text-on-green);
+}
+
+/* ==================== СЕКЦИЯ 6: ЗАПИСАТЬСЯ ==================== */
+.section-booking {
+  height: 540px;
+}
+
+.booking-title {
+  position: absolute;
+  top: 2007px;
+  left: 9px;
+  font-size: 27px;
+  line-height: 1.15;
+  text-align: center;
+}
+
+.booking-text {
+  position: absolute;
+  top: 2052px;
+  left: 9px;
+  font-family: 'AA Stetica', sans-serif;
+  font-size: 7.2px;
+  line-height: 1.33;
+  color: var(--text-primary);
+}
+
+.booking-circle {
+  position: absolute;
+  width: 63px;
+  height: 63px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: transform 0.3s;
+}
+
+.booking-circle:hover {
+  transform: scale(1.05);
+}
+
+.booking-circle-left {
+  left: 18px;
+  top: 2106px;
+}
+
+.booking-circle-right {
+  left: 18px;
+  top: 2196px;
+}
+
+.booking-circle-svg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.booking-circle-text {
+  font-family: 'AA Stetica', sans-serif;
+  font-size: 7.2px;
+  color: var(--text-primary);
+  z-index: 1;
+  margin-right: 4px;
+}
+
+.booking-circle-icon {
+  width: 14px;
+  height: 14px;
+  z-index: 1;
+}
+
+.booking-photo {
+  position: absolute;
+  right: 18px;
+  top: 2097px;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.booking-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ==================== СЕКЦИЯ 7: КОНТАКТЫ ==================== */
+.section-contacts {
+  height: 360px;
+  text-align: center;
+  padding-top: 27px;
+  background: var(--bg-body);
+}
+
+.contacts-title {
+  font-size: 27px;
+  line-height: 1.15;
+  margin-bottom: 9px;
+}
+
+.contact-pill {
+  display: block;
+  background: var(--pink);
+  color: var(--text-white);
+  font-family: 'AA Stetica', sans-serif;
+  font-size: 12.6px;
+  text-decoration: none;
+  padding: 6px 36px;
+  border-radius: 18px;
+  margin: 9px auto;
+  transition: transform 0.3s;
+  width: 180px;
+}
+
+.contact-pill:hover {
+  transform: scale(1.05);
+}
+
+.contacts-text {
+  font-family: 'AA Stetica', sans-serif;
+  font-size: 7.2px;
+  line-height: 1.5;
+  color: var(--text-primary);
+  margin-top: 9px;
+  padding: 0 27px;
+}
