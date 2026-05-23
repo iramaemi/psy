@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ирина Винокурова — Онлайн психолог</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script>
+        function scaleLayout() {
+            const baseWidth = 990;
+            const currentWidth = window.innerWidth;
+            const scale = currentWidth / baseWidth;
+            const wrapper = document.querySelector('.body-wrapper');
+            if (wrapper) {
+                wrapper.style.zoom = scale;
+            }
+        }
+        window.addEventListener('resize', scaleLayout);
+        window.addEventListener('load', scaleLayout);
+    </script>
+</head>
+<body>
+    <div class="body-wrapper">
+            <div class="page-inner">
+
+            <!-- ==================== СЕКЦИЯ 1: ГЛАВНАЯ ==================== -->
+            <section class="section section-hero" id="main">
+                <div class="hero-line-top"></div>
+
+                <nav class="nav">
+                    <a href="#main" class="nav-link">Главная</a>
+                    <a href="#about" class="nav-link">Обо мне</a>
+                    <a href="#requests" class="nav-link nav-link-two-lines">Ваши<br>вопросы</a>
+                    <a href="#approach" class="nav-link nav-link-two-lines">Как<br>работаю</a>
+                    <a href="#services" class="nav-link">Услуги</a>
+                    <a href="#booking" class="nav-link">Записаться</a>
+                    <a href="#contacts" class="nav-link">Контакты</a>
+                </nav>
+
+                <div class="hero-line-bottom"></div>
+
+                <p class="name">Ирина Винокурова</p>
+
+                <h1 class="hero-title">
+                    ОНЛАЙН <img src="assets/images/heart.png" alt="" class="heart-icon"><br>ПСИХОЛОГ
+                </h1>
+
+                <svg class="dashed-circle-big" viewBox="0 0 144 144">
+                    <circle cx="72" cy="72" r="70" fill="none" stroke="#ECEB71" stroke-width="3.06" stroke-dasharray="2 4.98"/>
+                </svg>
+                <svg class="dashed-circle-small" viewBox="0 0 69 69">
+                    <circle cx="34.5" cy="34.5" r="33" fill="none" stroke="#ECEB71" stroke-width="3.06" stroke-dasharray="2 4.91"/>
+                </svg>
+
+                <a href="#booking" class="btn-circle">
+                    <span>ЗАПИСАТЬСЯ</span>
+                </a>
+
+                <p class="hero-text hero-text-1">Помогаю тревожным в<br>отношениях</p>
+                <p class="hero-text hero-text-2">Для тех, кто устал решать все сам и<br>хочет опоры внутри</p>
+
+                <div class="hero-photo">
+                    <img src="assets/images/ava.png" alt="Ирина Винокурова">
+                </div>
+            </section>
+
+            <!-- ==================== СЕКЦИЯ 2: ОБО МНЕ ==================== -->
+            <section class="section section-about" id="about">
+                <div class="about-frame"></div>
+
+                <svg class="about-circle-medium" viewBox="0 0 108 108">
+                    <circle cx="54" cy="54" r="52" fill="none" stroke="#EE86A3" stroke-width="3.06" stroke-dasharray="2 4.95"/>
+                </svg>
+                <span class="about-circle-label about-circle-label-1">Супервизия</span>
+
+                <svg class="about-circle-big" viewBox="0 0 144 144">
+                    <circle cx="72" cy="72" r="70" fill="none" stroke="#EE86A3" stroke-width="3.06" stroke-dasharray="2 4.98"/>
+                </svg>
+                <span class="about-circle-label about-circle-label-2">Магистратура</span>
+
+                <svg class="about-circle-small" viewBox="0 0 72 72">
+                    <circle cx="36" cy="36" r="34" fill="none" stroke="#EE86A3" stroke-width="3.06" stroke-dasharray="2 4.89"/>
+                </svg>
+                <span class="about-circle-label about-circle-label-3">Личная<br>терапия</span>
+
+                <h2 class="section-title about-title">ДАВАЙТЕ<br>ЗНАКОМИТЬСЯ</h2>
+
+                <p class="about-text about-text-1">Меня зовут Ирина Винокурова и я практикующий психолог.<br>Мой путь в психологию начался в 2018 году с личного интереса и желания разобраться в себе.</p>
+                <p class="about-text about-text-2">Постепенно я поняла, что хочу помогать и другим людям распутывать сложные клубки чувств, мыслей и внутренних конфликтов, которые мешают жить спокойно и полно, опираясь на свое «истинное» я.</p>
+
+                <p class="about-subtitle">ОБРАЗОВАНИЕ</p>
+                <div class="about-line about-line-1"></div>
+                <p class="about-edu about-edu-1">Магистратура в «Московском институте психоанализа» по профилю:<br>клинико-психологическое консультирование с основами психотерапии</p>
+                <div class="about-line about-line-2"></div>
+                <p class="about-edu about-edu-2">Супервизия с элементами обучения "Разумная психология с опорой"</p>
+                <div class="about-line about-line-3"></div>
+                <p class="about-edu about-edu-3">Дополнительно: прохожу регулярную личную терапию</p>
+                <div class="about-line about-line-4"></div>
+
+                <div class="about-photo">
+                    <img src="assets/images/hand.png" alt="">
+                </div>
+            </section>
+
+            <!-- ==================== СЕКЦИЯ 3: ВАШИ ЗАПРОСЫ ==================== -->
+            <section class="section section-requests" id="requests">
+                <div class="requests-photo">
+                    <img src="assets/images/sky.png" alt="">
+                </div>
+                <img src="assets/images/plane.png" alt="" class="requests-plane">
+
+                <h2 class="section-title requests-title">ПОМОГУ ВАМ<br>С ЗАПРОСАМИ</h2>
+
+                <div class="requests-list requests-list-if">
+                    <p class="requests-list-title">ЕСЛИ ВЫ:</p>
+                    <div class="requests-item"><span class="requests-dot"></span>Испытываете сложности с тем, чтобы говорить "нет"</div>
+                    <div class="requests-item"><span class="requests-dot"></span>Чувствуете вину, когда отстаиваете свои интересы</div>
+                    <div class="requests-item"><span class="requests-dot"></span>В отношениях теряете себя</div>
+                    <div class="requests-item"><span class="requests-dot"></span>Не можете понять свои желания и потребности</div>
+                    <div class="requests-item"><span class="requests-dot"></span>Зацикливаетесь на мыслях</div>
+                    <div class="requests-item"><span class="requests-dot"></span>Не можете перестать думать о разных вещах</div>
+                    <div class="requests-item"><span class="requests-dot"></span>Не отпускает тревога даже, когда все вроде "спокойно"</div>
+                    <div class="requests-item"><span class="requests-dot"></span>У вас были случаи панических атак \ боязни открытых пространств и толп</div>
+                    <div class="requests-item"><span class="requests-dot"></span>Приступы страха и удушья в метро, перед важными событиями</div>
+                </div>
+
+                <div class="requests-list requests-list-help">
+                    <p class="requests-list-title">Я ПОМОГУ ВАМ:</p>
+                    <div class="requests-item"><span class="requests-dot"></span>Понять, где проходят ваши границы</div>
+                    <div class="requests-item"><span class="requests-dot"></span>Покажу, как защищать их без чувства вины</div>
+                    <div class="requests-item"><span class="requests-dot"></span>Разберём сложные ситуации в отношениях, чтобы было легче решать их в будущем</div>
+                    <div class="requests-item"><span class="requests-dot"></span>Снизить уровень тревоги</div>
+                    <div class="requests-item"><span class="requests-dot"></span>Перестать застревать в мыслях</div>
+                    <div class="requests-item"><span class="requests-dot"></span>Почувствовать больше спокойствия и опоры</div>
+                </div>
+            </section>
+
+            <!-- ==================== СЕКЦИЯ 4: КАК РАБОТАЮ ==================== -->
+            <section class="section section-approach" id="approach">
+                <div class="approach-frame"></div>
+
+                <h2 class="section-title approach-title">КАК Я РАБОТАЮ:<br>ПОДХОД, ЭТИКА</h2>
+
+                <p class="approach-text approach-text-1">Можно записаться на консультацию, даже не имея конкретного запроса. Можете просто описать своими словами, что с вами происходит - в дальнейшем это поможет оформить четкий запрос, с котормя смогу вам помочь.</p>
+                <p class="approach-text approach-text-2">В терапии мы разбираем только то, что вы готовы принести на встречу. Учимся замечать свои чувства и потребности, а также находим, в каких точках жизненных трудностей вы теряетесь, чтобы найти путь к адаптивных реакциям и действиям и постепенно вернуть вам опору на себя.</p>
+                <p class="approach-text approach-text-3">Бережно отношусь к чувствам и создаю безопасное пространство, где можно говорить открыто и без страха быть осуждённым. Придерживаюсь этического кодекса психолога.<br>Использую полимодальный подход, который совмещает в себя разные направления:</p>
+
+                <div class="approach-pills">
+                    <div class="pill">Когнитивно-поведенческая терапия</div>
+                    <div class="pill">Майндфулнесс</div>
+                    <div class="pill">Схематерапия</div>
+                    <div class="pill">Телесная терапия</div>
+                </div>
+
+                <svg class="approach-circle-small" viewBox="0 0 126 126">
+                    <circle cx="63" cy="63" r="61" fill="none" stroke="#EE86A3" stroke-width="3.06" stroke-dasharray="2 4.97"/>
+                </svg>
+                <svg class="approach-circle-big" viewBox="0 0 252 252">
+                    <circle cx="126" cy="126" r="124" fill="none" stroke="#EE86A3" stroke-width="3.06" stroke-dasharray="2 5.02"/>
+                </svg>
+                <svg class="approach-circle-medium" viewBox="0 0 162 162">
+                    <circle cx="81" cy="81" r="79" fill="none" stroke="#EE86A3" stroke-width="3.06" stroke-dasharray="2 4.99"/>
+                </svg>
+
+                <div class="approach-photo">
+                    <img src="assets/images/hugs.png" alt="">
+                </div>
+            </section>
+
+            <!-- ==================== СЕКЦИЯ 5: УСЛУГИ ==================== -->
+            <section class="section section-services" id="services">
+                <h2 class="section-title services-title">МОИ УСЛУГИ<br>индивидуальные консультации</h2>
+
+                <div class="services-cards">
+                    <div class="service-card">
+                        <p class="service-label">Стоимость</p>
+                        <p class="service-value">2000 руб</p>
+                    </div>
+                    <div class="service-card">
+                        <p class="service-label">Продолжительность</p>
+                        <p class="service-value">60 минут</p>
+                    </div>
+                    <div class="service-card">
+                        <p class="service-label">Частота</p>
+                        <p class="service-value">1 раз в<br>неделю</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ==================== СЕКЦИЯ 6: ЗАПИСАТЬСЯ ==================== -->
+            <section class="section section-booking" id="booking">
+                <h2 class="section-title booking-title">ЗАПИСЫВАЙТЕСЬ<br>НА КОНСУЛЬТАЦИЮ</h2>
+
+                <p class="booking-text">Можно связаться со мной через данные сервисы и<br>записаться на удобный день и время:</p>
+
+                <a href="https://t.me/ira_maemi" target="_blank" class="booking-circle booking-circle-left">
+                    <svg class="booking-circle-svg" viewBox="0 0 90 90">
+                        <circle cx="45" cy="45" r="43" fill="none" stroke="#EE86A3" stroke-width="3.06" stroke-dasharray="2 4.93"></circle>
+                    </svg>
+                    <span class="booking-circle-text">Telegram</span>
+                    <img src="assets/images/Telegram.png" alt="Telegram" class="booking-circle-icon">
+                </a>
+
+                <a href="https://www.avito.ru/kaluga/predlozheniya_uslug/psiholog_onlayn._rabota_s_granitsami_i_otnosheniyami_7978698008" target="_blank" class="booking-circle booking-circle-right">
+                    <svg class="booking-circle-svg" viewBox="0 0 90 90">
+                        <circle cx="45" cy="45" r="43" fill="none" stroke="#EE86A3" stroke-width="3.06" stroke-dasharray="2 4.93"></circle>
+                    </svg>
+                    <span class="booking-circle-text">Авито</span>
+                    <img src="assets/images/авито.png" alt="Авито" class="booking-circle-icon">
+                </a>
+
+                <div class="booking-photo">
+                    <img src="assets/images/circle.png" alt="">
+                </div>
+            </section>
+
+        </div>
+
+        <!-- ==================== СЕКЦИЯ 7: КОНТАКТЫ ==================== -->
+        <section class="section section-contacts" id="contacts">
+            <h2 class="section-title contacts-title">КОНТАКТЫ</h2>
+
+            <a href="https://t.me/ira_maemi" target="_blank" class="contact-pill">Telegram</a>
+            <a href="https://www.avito.ru/kaluga/predlozheniya_uslug/psiholog_onlayn._rabota_s_granitsami_i_otnosheniyami_7978698008" target="_blank" class="contact-pill">Авито</a>
+            <a href="https://www.b17.ru/id1115224/" target="_blank" class="contact-pill">Б17</a>
+
+            <p class="contacts-text">Я готова помочь вам найти путь для преодоления ваших<br>затруднений и ответить на все возникающие вопросы. Начните<br>менять вашу жизнь к лучшему уже сегодня.</p>
+        </section>
+
+    </div>
+</body>
+</html>
