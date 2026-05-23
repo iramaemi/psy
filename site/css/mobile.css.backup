@@ -177,12 +177,12 @@
 
 /* ==================== СЕКЦИЯ 2: ОБО МНЕ ==================== */
 .section-about {
-  height: 612px;
+  height: 900px;
 }
 
 .about-frame {
   position: absolute;
-  top: 45px;
+  top: 504px;
   left: 9px;
   width: 234px;
   height: 72px;
@@ -192,7 +192,7 @@
 
 .about-title {
   position: absolute;
-  top: 0px;
+  top: 459px;
   left: 9px;
   font-size: 27px;
   line-height: 1.15;
@@ -208,17 +208,17 @@
 }
 
 .about-text-1 {
-  top: 63px;
+  top: 522px;
 }
 
 .about-text-2 {
-  top: 135px;
+  top: 594px;
 }
 
 .about-photo {
   position: absolute;
   left: 99px;
-  top: 117px;
+  top: 576px;
   width: 153px;
   height: 153px;
   border-radius: 18px;
@@ -233,7 +233,7 @@
 
 .about-subtitle {
   position: absolute;
-  top: 225px;
+  top: 684px;
   left: 9px;
   font-family: 'AA Stetica', sans-serif;
   font-size: 12.6px;
@@ -249,19 +249,19 @@
 }
 
 .about-line-1 {
-  top: 252px;
+  top: 711px;
 }
 
 .about-line-2 {
-  top: 324px;
+  top: 783px;
 }
 
 .about-line-3 {
-  top: 396px;
+  top: 855px;
 }
 
 .about-line-4 {
-  top: 432px;
+  top: 891px;
 }
 
 .about-edu {
@@ -274,21 +274,21 @@
 }
 
 .about-edu-1 {
-  top: 261px;
+  top: 720px;
 }
 
 .about-edu-2 {
-  top: 333px;
+  top: 792px;
 }
 
 .about-edu-3 {
-  top: 405px;
+  top: 864px;
 }
 
 .about-circle-medium {
   position: absolute;
   left: 49.5px;
-  top: 288px;
+  top: 747px;
   width: 99px;
   height: 99px;
 }
@@ -296,7 +296,7 @@
 .about-circle-big {
   position: absolute;
   left: 66px;
-  top: 261px;
+  top: 720px;
   width: 108px;
   height: 108px;
 }
@@ -304,7 +304,7 @@
 .about-circle-small {
   position: absolute;
   left: 112.5px;
-  top: 342px;
+  top: 801px;
   width: 63px;
   height: 63px;
 }
@@ -319,24 +319,24 @@
 
 .about-circle-label-1 {
   left: 76.5px;
-  top: 333px;
+  top: 792px;
 }
 
 .about-circle-label-2 {
   left: 93px;
-  top: 310.5px;
+  top: 769.5px;
 }
 
 .about-circle-label-3 {
   left: 121.5px;
-  top: 364.5px;
+  top: 823.5px;
   text-align: center;
   line-height: 1.33;
 }
 
 /* ==================== СЕКЦИЯ 3: ВАШИ ЗАПРОСЫ ==================== */
 .section-requests {
-  height: 612px;
+  height: 720px;
 }
 
 .requests-title {
@@ -420,7 +420,7 @@
 
 /* ==================== СЕКЦИЯ 4: КАК РАБОТАЮ ==================== */
 .section-approach {
-  height: 612px;
+  height: 900px;
 }
 
 .approach-frame {
@@ -523,7 +523,7 @@
 
 /* ==================== СЕКЦИЯ 5: УСЛУГИ ==================== */
 .section-services {
-  height: 612px;
+  height: 360px;
 }
 
 .services-title {
@@ -574,7 +574,7 @@
 
 /* ==================== СЕКЦИЯ 6: ЗАПИСАТЬСЯ ==================== */
 .section-booking {
-  height: 612px;
+  height: 540px;
 }
 
 .booking-title {
@@ -661,7 +661,7 @@
 
 /* ==================== СЕКЦИЯ 7: КОНТАКТЫ ==================== */
 .section-contacts {
-  height: 612px;
+  height: 360px;
   text-align: center;
   padding-top: 27px;
   background: var(--bg-body);
