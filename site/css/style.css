@@ -681,6 +681,11 @@ body {
   justify-content: center;
   text-decoration: none;
   bottom: 27px;
+  transition: transform 0.3s;
+}
+
+.booking-circle:hover {
+  transform: scale(1.05);
 }
 
 .booking-circle-svg {
