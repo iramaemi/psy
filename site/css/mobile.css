@@ -21,19 +21,18 @@
   background: var(--bg-inner);
   border-radius: 18px;
   position: relative;
-  width: 252px;
+  width: 300px;
   overflow: hidden;
-  zoom: 1.190476;
 }
 
 /* ==================== СЕКЦИЯ 1: ГЛАВНАЯ ==================== */
 .section-hero {
-  height: 612px;
+  height: 538px;
 }
 
 .hero-line-top {
   position: absolute;
-  top: 9px;
+  top: 7px;
   left: 9px;
   right: 9px;
   height: 1px;
@@ -42,7 +41,7 @@
 
 .hero-line-bottom {
   position: absolute;
-  top: 27px;
+  top: 29px;
   left: 9px;
   right: 9px;
   height: 1px;
@@ -75,7 +74,7 @@
 
 .name {
   position: absolute;
-  top: 54px;
+  top: 63px;
   left: 9px;
   font-family: 'AA Stetica', sans-serif;
   font-size: 12.6px;
@@ -84,12 +83,12 @@
 
 .hero-title {
   position: absolute;
-  top: 72px;
+  top: 81px;
   left: 9px;
   font-family: 'Bonche', sans-serif;
   font-weight: 300;
-  font-size: 42px;
-  line-height: 1.15;
+  font-size: 51px;
+  line-height: 48.3px;
   color: var(--text-primary);
 }
 
@@ -101,27 +100,27 @@
 
 .dashed-circle-big {
   position: absolute;
-  left: 108px;
-  bottom: 153px;
-  width: 108px;
-  height: 108px;
+  left: 135px;
+  bottom: 36px;
+  width: 126px;
+  height: 126px;
   z-index: 3;
 }
 
 .dashed-circle-small {
   position: absolute;
-  left: 186px;
-  bottom: 225px;
-  width: 54px;
-  height: 54px;
+  left: 213px;
+  bottom: 126px;
+  width: 72px;
+  height: 72px;
 }
 
 .btn-circle {
   position: absolute;
   left: 9px;
-  bottom: 360px;
-  width: 72px;
-  height: 72px;
+  bottom: 261px;
+  width: 86px;
+  height: 86px;
   background: var(--pink);
   border-radius: 50%;
   display: flex;
@@ -130,7 +129,7 @@
   text-decoration: none;
   color: var(--text-white);
   font-family: 'AA Stetica', sans-serif;
-  font-size: 9.2px;
+  font-size: 11px;
   text-align: center;
   transition: transform 0.3s;
   z-index: 2;
@@ -144,7 +143,7 @@
   position: absolute;
   right: 9px;
   font-family: 'AA Stetica', sans-serif;
-  font-size: 7.2px;
+  font-size: 8.6px;
   line-height: 1.33;
   color: var(--text-primary);
   text-align: right;
@@ -152,18 +151,18 @@
 }
 
 .hero-text-1 {
-  top: 438px;
+  top: 483px;
 }
 
 .hero-text-2 {
-  top: 465px;
+  top: 510px;
 }
 
 .hero-photo {
   position: absolute;
   left: 9px;
-  top: 207px;
-  width: 168px;
+  top: 225px;
+  width: 193px;
   border-radius: 18px;
   z-index: 1;
 }
@@ -177,24 +176,27 @@
 
 /* ==================== СЕКЦИЯ 2: ОБО МНЕ ==================== */
 .section-about {
-  height: 612px;
+  height: 538px;
+  position: relative;
 }
 
 .about-frame {
   position: absolute;
-  top: 45px;
+  top: 77px;
   left: 9px;
-  width: 234px;
-  height: 72px;
+  right: 9px;
+  height: 216px;
   border: 1px solid var(--green);
   border-radius: 18px;
+  background: transparent;
+  z-index: 2;
 }
 
 .about-title {
   position: absolute;
   top: 0px;
   left: 9px;
-  font-size: 27px;
+  font-size: 33.75px;
   line-height: 1.15;
 }
 
@@ -208,60 +210,69 @@
 }
 
 .about-text-1 {
-  top: 63px;
+  top: 98px;
+  left: 18px;
+  width: 180px;
+  font-size: 8.64px;
+  line-height: 1.73;
 }
 
 .about-text-2 {
-  top: 135px;
+  top: 188px;
+  left: 18px;
+  width: 180px;
+  font-size: 8.64px;
+  line-height: 1.73;
 }
 
 .about-photo {
   position: absolute;
-  left: 99px;
-  top: 117px;
-  width: 153px;
-  height: 153px;
+  left: 170px;
+  top: 137px;
+  width: 156px;
+  height: 156px;
   border-radius: 18px;
   overflow: hidden;
+  z-index: 1;
 }
 
 .about-photo img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .about-subtitle {
   position: absolute;
-  top: 225px;
+  top: 299px;
   left: 9px;
   font-family: 'AA Stetica', sans-serif;
   font-size: 12.6px;
-  color: var(--text-primary);
+  color: var(--text-secondary);
 }
 
 .about-line {
   position: absolute;
   left: 9px;
-  width: 234px;
+  right: 9px;
   height: 1px;
   background: var(--gray-line);
 }
 
 .about-line-1 {
-  top: 252px;
+  top: 317px;
 }
 
 .about-line-2 {
-  top: 324px;
+  top: 371px;
 }
 
 .about-line-3 {
-  top: 396px;
+  top: 398px;
 }
 
 .about-line-4 {
-  top: 432px;
+  top: 425px;
 }
 
 .about-edu {
@@ -274,21 +285,25 @@
 }
 
 .about-edu-1 {
-  top: 261px;
+  top: 321.5px;
+  font-size: 8.6px;
+  line-height: 1.73;
 }
 
 .about-edu-2 {
-  top: 333px;
+  top: 380px;
+  font-size: 8.6px;
 }
 
 .about-edu-3 {
-  top: 405px;
+  top: 407px;
+  font-size: 8.6px;
 }
 
 .about-circle-medium {
   position: absolute;
   left: 49.5px;
-  top: 288px;
+  top: 439px;
   width: 99px;
   height: 99px;
 }
@@ -296,15 +311,15 @@
 .about-circle-big {
   position: absolute;
   left: 66px;
-  top: 261px;
+  top: 430px;
   width: 108px;
   height: 108px;
 }
 
 .about-circle-small {
   position: absolute;
-  left: 112.5px;
-  top: 342px;
+  left: 238.5px;
+  top: 475px;
   width: 63px;
   height: 63px;
 }
@@ -319,24 +334,25 @@
 
 .about-circle-label-1 {
   left: 76.5px;
-  top: 333px;
+  top: 484px;
 }
 
 .about-circle-label-2 {
   left: 93px;
-  top: 310.5px;
+  top: 479.5px;
 }
 
 .about-circle-label-3 {
-  left: 121.5px;
-  top: 364.5px;
+  left: 245px;
+  top: 495px;
   text-align: center;
   line-height: 1.33;
+  font-size: 8.64px;
 }
 
 /* ==================== СЕКЦИЯ 3: ВАШИ ЗАПРОСЫ ==================== */
 .section-requests {
-  height: 612px;
+  height: 720px;
 }
 
 .requests-title {
@@ -420,7 +436,7 @@
 
 /* ==================== СЕКЦИЯ 4: КАК РАБОТАЮ ==================== */
 .section-approach {
-  height: 612px;
+  height: 900px;
 }
 
 .approach-frame {
@@ -523,7 +539,7 @@
 
 /* ==================== СЕКЦИЯ 5: УСЛУГИ ==================== */
 .section-services {
-  height: 612px;
+  height: 360px;
 }
 
 .services-title {
@@ -574,7 +590,7 @@
 
 /* ==================== СЕКЦИЯ 6: ЗАПИСАТЬСЯ ==================== */
 .section-booking {
-  height: 612px;
+  height: 540px;
 }
 
 .booking-title {
@@ -661,7 +677,7 @@
 
 /* ==================== СЕКЦИЯ 7: КОНТАКТЫ ==================== */
 .section-contacts {
-  height: 612px;
+  height: 360px;
   text-align: center;
   padding-top: 27px;
   background: var(--bg-body);

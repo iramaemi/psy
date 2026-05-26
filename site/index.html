@@ -8,25 +8,8 @@
     <link id="layout-css" rel="stylesheet" href="css/desktop.css">
     <script>
         function setLayout() {
-            const currentWidth = window.innerWidth;
-            const wrapper = document.querySelector('.body-wrapper');
             const cssLink = document.getElementById('layout-css');
-            
-            if (currentWidth <= 600) {
-                cssLink.href = 'css/mobile.css';
-                if (wrapper) {
-                    const baseWidth = 318;
-                    const scale = currentWidth / baseWidth;
-                    wrapper.style.zoom = scale;
-                }
-            } else {
-                cssLink.href = 'css/desktop.css';
-                if (wrapper) {
-                    const baseWidth = 990;
-                    const scale = currentWidth / baseWidth;
-                    wrapper.style.zoom = scale;
-                }
-            }
+            cssLink.href = 'css/mobile.css';
         }
         window.addEventListener('resize', setLayout);
         window.addEventListener('load', setLayout);
@@ -111,7 +94,7 @@
                 <div class="about-line about-line-4"></div>
 
                 <div class="about-photo">
-                    <img src="assets/images/hand.png" alt="">
+                    <img src="assets/images/hand_mobile.png" alt="">
                 </div>
             </section>
 
