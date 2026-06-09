@@ -302,56 +302,52 @@
 
 .about-circle-medium {
   position: absolute;
-  left: 49.5px;
-  top: 439px;
-  width: 99px;
-  height: 99px;
+  left: 61.32px;
+  top: 447.82px;
+  width: 63.36px;
+  height: 63.36px;
 }
 
 .about-circle-big {
   position: absolute;
-  left: 66px;
-  top: 430px;
-  width: 108px;
-  height: 108px;
+  left: 130.8px;
+  top: 434.8px;
+  width: 86.4px;
+  height: 86.4px;
 }
 
 .about-circle-small {
   position: absolute;
-  left: 238.5px;
-  top: 475px;
-  width: 63px;
-  height: 63px;
+  left: 220.8px;
+  top: 472.3px;
+  width: 50.4px;
+  height: 50.4px;
 }
 
 .about-circle-label {
   position: absolute;
   font-family: 'AA Stetica', sans-serif;
-  font-size: 7.2px;
+  font-size: 8.64px;
   color: var(--text-primary);
   text-align: center;
+  transform: translate(-50%, -50%);
 }
 
 .about-circle-label-1 {
-  left: 76.5px;
-  top: 484px;
-}
-
-.about-circle-label-2 {
   left: 93px;
   top: 479.5px;
 }
-
+.about-circle-label-2 {
+  left: 174px;
+  top: 478px;
+}
 .about-circle-label-3 {
-  left: 245px;
-  top: 495px;
+  left: 246px;
+  top: 497.5px;
   text-align: center;
   line-height: 1.33;
   font-size: 8.64px;
 }
-
-/* ==================== СЕКЦИЯ 3: ВАШИ ЗАПРОСЫ ==================== */
-.section-requests {
   height: 720px;
 }
 
