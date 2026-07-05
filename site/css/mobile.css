@@ -348,10 +348,6 @@
   line-height: 1.33;
   font-size: 8.64px;
 }
-  position: relative;
-  top: 538px;
-  height: 538px;
-}
 
 .requests-title {
   position: absolute;
@@ -361,6 +357,14 @@
   width: fit-content;
   font-size: 27px;
   line-height: 1.15;
+}
+
+/* Requests content extends well beyond the photo area.
+   Give the section its own vertical space so following sections
+   start after all request content has finished. */
+.section-requests {
+  position: relative;
+  height: 760px;
 }
 
 .requests-photo {
@@ -404,6 +408,7 @@
 
 .requests-list-help {
   top: 531px;
+  width: 264px;
 }
 
 .requests-list-title {
@@ -437,8 +442,7 @@
 /* ==================== СЕКЦИЯ 4: КАК РАБОТАЮ ==================== */
 .section-approach {
   position: relative;
-  top: 1076px;
-  height: 538px;
+  min-height: 700px;
 }
 
 .approach-frame {
@@ -446,7 +450,7 @@
   top: 0px;
   left: 9px;
   width: 234px;
-  height: 342px;
+  height: 500px;
   border: 1px solid var(--green);
   border-radius: 18px;
 }
@@ -469,24 +473,28 @@
 }
 
 .approach-text-1 {
-  top: 45px;
+  top: 90px;
+  width: 220px;
 }
 
 .approach-text-2 {
-  top: 135px;
+  top: 220px;
+  width: 220px;
 }
 
 .approach-text-3 {
-  top: 225px;
+  top: 360px;
+  width: 220px;
 }
 
 .approach-pills {
   position: absolute;
-  top: 315px;
+  top: 500px;
   left: 9px;
   display: flex;
   flex-wrap: wrap;
   gap: 6px;
+  z-index: 2;
 }
 
 .pill {
@@ -502,7 +510,7 @@
 .approach-circle-small {
   position: absolute;
   left: 18px;
-  top: 376px;
+  top: 520px;
   width: 72px;
   height: 72px;
 }
@@ -510,7 +518,7 @@
 .approach-circle-big {
   position: absolute;
   left: 42px;
-  top: 430px;
+  top: 575px;
   width: 108px;
   height: 108px;
 }
@@ -518,7 +526,7 @@
 .approach-circle-medium {
   position: absolute;
   left: 112.5px;
-  top: 394px;
+  top: 535px;
   width: 54px;
   height: 54px;
 }
@@ -526,7 +534,7 @@
 .approach-photo {
   position: absolute;
   left: 27px;
-  top: 342px;
+  top: 610px;
   width: 162px;
   height: 162px;
   border-radius: 18px;
@@ -541,14 +549,14 @@
 
 /* ==================== СЕКЦИЯ 5: УСЛУГИ ==================== */
 .section-services {
-  height: 360px;
+  min-height: 360px;
+  position: relative;
 }
 
 .services-title {
   position: absolute;
-  top: 1836px;
-  left: 50%;
-  transform: translateX(-50%);
+  top: 27px;
+  left: 9px;
   font-size: 27px;
   line-height: 1.15;
   text-align: center;
@@ -556,7 +564,7 @@
 
 .services-cards {
   position: absolute;
-  top: 1908px;
+  top: 99px;
   left: 9px;
   right: 9px;
   display: flex;
@@ -592,12 +600,13 @@
 
 /* ==================== СЕКЦИЯ 6: ЗАПИСАТЬСЯ ==================== */
 .section-booking {
-  height: 540px;
+  min-height: 620px;
+  position: relative;
 }
 
 .booking-title {
   position: absolute;
-  top: 2007px;
+  top: 27px;
   left: 9px;
   font-size: 27px;
   line-height: 1.15;
@@ -606,8 +615,9 @@
 
 .booking-text {
   position: absolute;
-  top: 2052px;
+  top: 110px;
   left: 9px;
+  width: 220px;
   font-family: 'AA Stetica', sans-serif;
   font-size: 7.2px;
   line-height: 1.33;
@@ -631,12 +641,12 @@
 
 .booking-circle-left {
   left: 18px;
-  top: 2106px;
+  top: 126px;
 }
 
 .booking-circle-right {
   left: 18px;
-  top: 2196px;
+  top: 216px;
 }
 
 .booking-circle-svg {
@@ -664,7 +674,7 @@
 .booking-photo {
   position: absolute;
   right: 18px;
-  top: 2097px;
+  top: 117px;
   width: 180px;
   height: 180px;
   border-radius: 50%;
@@ -679,7 +689,8 @@
 
 /* ==================== СЕКЦИЯ 7: КОНТАКТЫ ==================== */
 .section-contacts {
-  height: 360px;
+  min-height: 360px;
+  position: relative;
   text-align: center;
   padding-top: 27px;
   background: var(--bg-body);

@@ -9,7 +9,7 @@
     <script>
         function setLayout() {
             const cssLink = document.getElementById('layout-css');
-            cssLink.href = 'css/mobile.css';
+            cssLink.href = window.innerWidth <= 600 ? 'css/mobile.css' : 'css/desktop.css';
         }
         window.addEventListener('resize', setLayout);
         window.addEventListener('load', setLayout);
