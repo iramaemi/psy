@@ -364,7 +364,7 @@
    start after all request content has finished. */
 .section-requests {
   position: relative;
-  height: 760px;
+  height: 670px;
 }
 
 .requests-photo {
@@ -373,24 +373,25 @@
   left: 9px;
   right: 9px;
   height: 297px;
-  border-radius: 18px;
   overflow: hidden;
 }
 
 .requests-photo img {
   width: 100%;
-  height: 100%;
+  height: 50%;
+  border-radius: 18px;
   object-fit: cover;
+  content: url('../assets/images/sky_mobile.png');
 }
 
 .requests-plane {
   position: absolute;
-  top: 45px;
+  top: 135px;
   left: 9px;
-  width: 297px;
   height: 297px;
   object-fit: contain;
   z-index: 2;
+  content: url('../assets/images/sky mobile.png');
 }
 
 .requests-list {
@@ -447,10 +448,10 @@
 
 .approach-frame {
   position: absolute;
-  top: 0px;
-  left: 9px;
-  width: 234px;
-  height: 500px;
+  top: 190px;
+  left: 10px;
+  right: 10px;
+  height: 200px;
   border: 1px solid var(--green);
   border-radius: 18px;
 }
@@ -473,23 +474,28 @@
 }
 
 .approach-text-1 {
-  top: 90px;
+  top: 80px;
   width: 220px;
 }
 
 .approach-text-2 {
-  top: 220px;
+  top: 130px;
   width: 220px;
 }
 
 .approach-text-3 {
-  top: 360px;
-  width: 220px;
+  top: 200px;
+  left: 20px;
+  width: 185px;
+}
+
+.approach-text-4 {
+  top: 400px;
 }
 
 .approach-pills {
   position: absolute;
-  top: 500px;
+  top: 430px;
   left: 9px;
   display: flex;
   flex-wrap: wrap;
@@ -510,7 +516,7 @@
 .approach-circle-small {
   position: absolute;
   left: 18px;
-  top: 520px;
+  top: 265px;
   width: 72px;
   height: 72px;
 }
@@ -518,7 +524,7 @@
 .approach-circle-big {
   position: absolute;
   left: 42px;
-  top: 575px;
+  top: 265px;
   width: 108px;
   height: 108px;
 }
@@ -526,16 +532,15 @@
 .approach-circle-medium {
   position: absolute;
   left: 112.5px;
-  top: 535px;
+  top: 300px;
   width: 54px;
   height: 54px;
 }
 
 .approach-photo {
   position: absolute;
-  left: 27px;
-  top: 610px;
-  width: 162px;
+  right: 3px;
+  top: 217px;
   height: 162px;
   border-radius: 18px;
   overflow: hidden;
