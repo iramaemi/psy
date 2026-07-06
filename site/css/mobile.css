@@ -690,7 +690,7 @@
 .section-contacts {
   position: relative;
   text-align: center;
-  padding-top: 17px;
+  padding-top: 9px;
   background: var(--bg-body);
 }
 
@@ -724,5 +724,5 @@
   line-height: 1.5;
   color: var(--text-primary);
   margin-top: 9px;
-  padding: 0 27px;
+  margin-bottom: 9px;
 }
