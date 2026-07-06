@@ -186,7 +186,7 @@
   left: 9px;
   right: 9px;
   height: 216px;
-  border: 1px solid var(--green);
+  border: 1.5px solid var(--green);
   border-radius: 18px;
   background: transparent;
   z-index: 2;
@@ -451,7 +451,7 @@
   left: 10px;
   right: 10px;
   height: 200px;
-  border: 1px solid var(--green);
+  border: 1.5px solid var(--green);
   border-radius: 18px;
 }
 
