@@ -364,7 +364,7 @@
    start after all request content has finished. */
 .section-requests {
   position: relative;
-  height: 670px;
+  height: 620px;
 }
 
 .requests-photo {
@@ -372,7 +372,6 @@
   top: 63px;
   left: 9px;
   right: 9px;
-  height: 297px;
   overflow: hidden;
 }
 
@@ -386,8 +385,8 @@
 
 .requests-plane {
   position: absolute;
-  top: 135px;
-  left: 9px;
+  top: 188px;
+  left: -17px;
   height: 297px;
   object-fit: contain;
   z-index: 2;
@@ -396,7 +395,8 @@
 
 .requests-list {
   position: absolute;
-  left: 18px;
+  left: 35px;
+  width: 220px;
   font-family: 'AA Stetica', sans-serif;
   font-size: 7.2px;
   line-height: 1.33;
@@ -404,12 +404,11 @@
 }
 
 .requests-list-if {
-  top: 369px;
+  top: 300px;
 }
 
 .requests-list-help {
-  top: 531px;
-  width: 264px;
+  top: 484px;
 }
 
 .requests-list-title {
@@ -443,7 +442,7 @@
 /* ==================== СЕКЦИЯ 4: КАК РАБОТАЮ ==================== */
 .section-approach {
   position: relative;
-  min-height: 700px;
+  height: 538px;
 }
 
 .approach-frame {
@@ -560,8 +559,6 @@
 
 .services-title {
   position: absolute;
-  top: 27px;
-  left: 9px;
   font-size: 27px;
   line-height: 1.15;
   text-align: center;
@@ -569,7 +566,7 @@
 
 .services-cards {
   position: absolute;
-  top: 99px;
+  top: 103px;
   left: 9px;
   right: 9px;
   display: flex;
@@ -605,14 +602,11 @@
 
 /* ==================== СЕКЦИЯ 6: ЗАПИСАТЬСЯ ==================== */
 .section-booking {
-  min-height: 620px;
+  height: 360px;
   position: relative;
 }
 
 .booking-title {
-  position: absolute;
-  top: 27px;
-  left: 9px;
   font-size: 27px;
   line-height: 1.15;
   text-align: center;
@@ -620,8 +614,8 @@
 
 .booking-text {
   position: absolute;
-  top: 110px;
-  left: 9px;
+  top: 80px;
+  left: 14px;
   width: 220px;
   font-family: 'AA Stetica', sans-serif;
   font-size: 7.2px;
@@ -694,10 +688,9 @@
 
 /* ==================== СЕКЦИЯ 7: КОНТАКТЫ ==================== */
 .section-contacts {
-  min-height: 360px;
   position: relative;
   text-align: center;
-  padding-top: 27px;
+  padding-top: 17px;
   background: var(--bg-body);
 }
 
