@@ -465,7 +465,6 @@
 
 .approach-text {
   position: absolute;
-  left: 9px;
   font-family: 'AA Stetica', sans-serif;
   font-size: 7.2px;
   line-height: 1.33;
@@ -474,12 +473,13 @@
 
 .approach-text-1 {
   top: 80px;
-  width: 220px;
+  margin: 9px;
 }
 
 .approach-text-2 {
   top: 130px;
-  width: 220px;
+  margin: 9px;
+  position: relative;
 }
 
 .approach-text-3 {
@@ -490,12 +490,13 @@
 
 .approach-text-4 {
   top: 400px;
+  margin: 9px;
 }
 
 .approach-pills {
   position: absolute;
   top: 430px;
-  left: 9px;
+  margin: 9px;
   display: flex;
   flex-wrap: wrap;
   gap: 6px;
