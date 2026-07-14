@@ -458,7 +458,7 @@
 
 .approach-frame {
   position: absolute;
-  top: 239px;
+  top: 153.3px;
   left: 10px;
   right: 10px;
   height: 200px;
@@ -489,23 +489,23 @@
 }
 
 .approach-text-2 {
-  top: 156.8px;
+  top: 475.4px;
 }
 
 .approach-text-3 {
-  top: 249px;
+  top: 163.3px;
   left: 20px;
   right: auto;
   width: 185px;
 }
 
 .approach-text-4 {
-  top: 447px;
+  top: 359.6px;
 }
 
 .approach-pills {
   position: absolute;
-  bottom: 0;
+  top: 395.6px;
   left: 9px;
   right: 9px;
   display: flex;
@@ -528,7 +528,7 @@
 .approach-circle-small {
   position: absolute;
   left: 57px;
-  top: 332px;
+  top: 246.3px;
   width: 72px;
   height: 72px;
 }
@@ -536,7 +536,7 @@
 .approach-circle-big {
   position: absolute;
   left: 109px;
-  top: 322.5px;
+  top: 236.8px;
   width: 108px;
   height: 108px;
 }
@@ -544,7 +544,7 @@
 .approach-circle-medium {
   position: absolute;
   left: 216px;
-  top: 249px;
+  top: 163.3px;
   width: 54px;
   height: 54px;
 }
@@ -552,7 +552,7 @@
 .approach-photo {
   position: absolute;
   right: 6px;
-  top: 276px;
+  top: 190.3px;
   width: 135px;
   height: 162px;
   border-radius: 18px;
